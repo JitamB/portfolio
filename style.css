@@ -1,4 +1,3 @@
-/* Resetting some default styles */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -49,6 +48,16 @@ main {
   padding: 20px;
 }
 
+.container{
+  displey:flex;
+  align-item: center;
+  justify-content: center;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
 /* Section styles */
 section {
   display: flex;
