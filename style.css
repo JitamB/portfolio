@@ -41,6 +41,13 @@ header {
   }
 }
 
+.email a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    /* font-weight: bold; */
+  }
+
 main {
   padding: 20px;
 }
