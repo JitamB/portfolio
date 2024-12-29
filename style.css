@@ -101,7 +101,7 @@ li {
   margin-bottom: 20px;
 }
 
-.hire-button {
+.hire-button a {
   background-color: #e91e63;
   color: white;
   padding: 10px 20px;
