@@ -103,7 +103,7 @@ li {
 
 .hire-button {
   background-color: #e91e63;
-  color: white;
+  text-color: white;
   padding: 10px 20px;
   font-size: 1.2em;
   border: none;
@@ -111,9 +111,9 @@ li {
   cursor: pointer;
 }
 
-.hire-button a {
+/* .hire-button a {
   text-color: white;
-}
+} */
 
 .hire-button:hover {
   background-color: #ff5722;
