@@ -101,7 +101,7 @@ li {
   margin-bottom: 20px;
 }
 
-.hire-button a {
+.hire-button {
   background-color: #e91e63;
   color: white;
   padding: 10px 20px;
@@ -109,6 +109,10 @@ li {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.hire-button a {
+  text-color: white;
 }
 
 .hire-button:hover {
