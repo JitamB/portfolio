@@ -132,11 +132,9 @@ li {
 }
 
 
-.icons {
+/* .icons {
   position:absolute;
-  /* top:90%; */
   left:50%;
-  /* align-content: centre; */
   transform: translate(-50%, -50%);
   margin:0;
   padding:0;
@@ -198,4 +196,4 @@ li {
 
 .icons li:nth-child(5) a:hover .fab {
   color: #e4405f;
-}
+} */
