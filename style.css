@@ -1,6 +1,8 @@
 .content {
   max-width: 900px;
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -13,7 +15,7 @@ body {
 }
 
 header {
-  background-color: #e9911e;
+  background-color: #e6a148;
   color: white;
   padding: 20px;
   text-align: center;
@@ -22,6 +24,7 @@ header {
   /* padding: 20px; */
   margin: 20px 0;
 }
+
 
 .profile-picture {
   border-radius: 50%;
@@ -32,6 +35,12 @@ header {
 .header-text {
   margin-left: 20px;
 }
+
+.header-text h1 {
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
 
 .profile-picture img {
   width: 100px;
@@ -49,11 +58,12 @@ header {
   }
 } */
 
-.email a {
+.contact a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
     /* font-weight: bold; */
+    display: flex;
   }
 
 /* main {
@@ -63,13 +73,14 @@ header {
 section {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  margin: 20px 0px;
   border-radius: 10px;
   padding: 20px;
 }
 
 section h2 {
   font-size: 1.5em;
+  margin-top: 3px;
   margin-bottom: 10px;
   color: #e9911e;
 }
@@ -88,7 +99,8 @@ li {
 }
 
 .hire-me {
-  background-color: hsla(38, 68%, 61%, 0.739);
+  /* background-color: hsl(38, 66%, 68%); */
+  background-color: #e6a248b6;
   padding: 30px;
   text-align: center;
   color: #514e4e;
@@ -111,7 +123,7 @@ li {
 }
 
 .hire-button:hover {
-  background-color: #34332e;
+  background-color: #9d5224;
 }
 
 .social-media {
