@@ -22,11 +22,11 @@ body::before {
   top: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  /* background: */
-    /* radial-gradient(circle 300px at 20% 30%, #ffd90056, transparent 70%),
+  background:
+    radial-gradient(circle 300px at 20% 30%, #ffd90056, transparent 70%),
     radial-gradient(circle 300px at 80% 70%, #00c3ff5a, transparent 70%),
     radial-gradient(circle 250px at 50% 90%, #ff7f5051, transparent 70%),
-    radial-gradient(circle 250px at 70% 20%, #80ff004d, transparent 70%); */
+    radial-gradient(circle 250px at 70% 20%, #80ff004d, transparent 70%);
   z-index: -1;
   pointer-events: none;
   background-repeat: no-repeat;
