@@ -4,112 +4,313 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Jitam Barman — Engineering student at IIT Kharagpur. AI, Data Science, and Materials Engineering.">
   <title>Jitam Barman - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<div class = "content">
-  <header>
-    <div class="profile-picture">
-      <img src="jitam_.jpg" alt="Jitam Barman">
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <div class="navbar-dot"></div>
+      <span class="navbar-name">Jitam Barman</span>
+      <span class="navbar-title">Student @ IIT Kharagpur</span>
     </div>
-    <div class="header-text">
-      <h1>Jitam Barman</h1>
-      <div class="contact">
-        <a href= "mailto:barmanjitam@gmail.com">barmanjitam@gmail.com</a></br>
-        <a href="tel:+919547902200">+91 9547902200</a>
+
+    <!-- Hamburger icon for mobile -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="navbar-links" id="navbar-links">
+      <a href="#skills">Skills</a>
+      <span class="pipe">|</span>
+      <a href="#experience">Experience</a>
+      <span class="pipe">|</span>
+      <a href="#projects">Projects</a>
+      <span class="pipe">|</span>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="content">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="hero-photo">
+        <img src="jitam_.jpg" alt="Jitam Barman">
+      </div>
+      <!-- <div class="hero-second"> -->
+      <div class="hero-text">
+        <h1>Jitam Barman</h1>
+        <div class="hero-contact">
+          <a href="mailto:barmanjitam@gmail.com">barmanjitam@gmail.com</a>
+          <a href="tel:+919547902200">+91 9547902200</a>
+        </div>
+        <h2>A Bit About Me</h2>
+        <p class="bio">
+          I am a Dual Degree (BTech + MTech) student at IIT Kharagpur, specializing in Metallurgical and Materials
+          Engineering with a minor in Computer Science and Engineering. My interests lie at the
+          intersection of AI, machine learning, and Materials Engineering.
+        </p>
+        <p class="bio">
+          Beyond academics, I lead the sponsorship team of COMPOSIT, the annual departmental fest, and stay active in
+          hall life, and literary events.
+        </p>
+
+        <!-- <div class="hero-contact">
+          <a href="mailto:barmanjitam@gmail.com">barmanjitam@gmail.com</a>
+          <a href="tel:+919547902200">+91 9547902200</a>
+          </div> -->
+
+        <div class="hero-education">
+          <h3>Education</h3>
+          <div class="edu-item">
+            <strong>IIT Kharagpur</strong> — BTech &amp; MTech Dual Degree, Metallurgical &amp; Materials Engineering
+            <span class="edu-year">2023 – Present</span>
+          </div>
+          <!-- <div class="edu-item">
+            <strong>IIT Madras</strong> — BS in Data Science and Application
+            <span class="edu-year">2023 – Present</span>
+          </div>
+          <div class="edu-item">
+            <strong>Jenkins School</strong> — Higher Secondary, Science (PCMB)
+            <span class="edu-year">2023</span>
+          </div> -->
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <!-- ===== Circle Nav ===== -->
+    <div class="circle-nav">
+      <a href="https://drive.google.com/file/d/13-sxfeNHuQqzkvsuPH5xLATB32titDeb/view?usp=sharing" target="_blank"
+        class="circle-link">Resume</a>
+      <a href="#skills" class="circle-link">Skills</a>
+      <a href="#experience" class="circle-link">Experience</a>
+      <a href="#projects" class="circle-link">Projects</a>
+      <a href="#activities" class="circle-link">Activities</a>
+    </div>
+
+    <!-- ===== Skills ===== -->
+    <section class="page-section reveal" id="skills">
+      <h2 class="section-heading">Skills</h2>
+
+      <div class="skills-category">
+        <div class="skills-label">Languages</div>
+        <div class="skills-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">MATLAB</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <div class="skills-label">ML / AI</div>
+        <div class="skills-tags">
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">Scikit-learn</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">SciPy</span>
+          <span class="skill-tag">Matplotlib</span>
+          <span class="skill-tag">NLP</span>
+          <span class="skill-tag">RAG</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <div class="skills-label">Web / App</div>
+        <div class="skills-tags">
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">React Native</span>
+          <span class="skill-tag">Expo</span>
+          <span class="skill-tag">Streamlit</span>
+          <span class="skill-tag">Bootstrap</span>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <div class="skills-label">Tools &amp; Platforms</div>
+        <div class="skills-tags">
+          <span class="skill-tag">Git / GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Jupyter Notebook</span>
+          <span class="skill-tag">Google Colab</span>
+          <span class="skill-tag">Kaggle</span>
+          <span class="skill-tag">Xcode</span>
+          <span class="skill-tag">Autodesk Fusion 360</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="page-section reveal" id="experience">
+      <h2 class="section-heading">Experience</h2>
+
+      <div class="exp-entry">
+        <h3>Head - Sponsorship</h3>
+        <div class="exp-org">COMPOSIT, IIT Kharagpur</div>
+        <div class="exp-period">Apr 2025 – Present</div>
+      </div>
+
+      <div class="exp-entry">
+        <h3>Sub-Head</h3>
+        <div class="exp-org">COMPOSIT, IIT Kharagpur</div>
+        <div class="exp-period">Nov 2024 – Apr 2025</div>
+      </div>
+
+      <div class="exp-entry">
+        <h3>Secretary</h3>
+        <div class="exp-org">Azad Hall of Residence</div>
+        <div class="exp-period">Oct 2024 – Apr 2025</div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="page-section reveal" id="projects">
+      <h2 class="section-heading">Projects</h2>
+
+      <div class="project-block">
+        <div class="project-text">
+          <h3>Real-Time Financial RAG Bot</h3>
+          <p>A real-time RAG engine for financial analysis — listens to live markets, processes news streams, and reads
+            uploaded documents to provide instant, data-backed answers.</p>
+          <div class="project-tech">
+            <span class="tech-badge">Pathway</span>
+            <span class="tech-badge">Streamlit</span>
+            <span class="tech-badge">SQLite</span>
+            <span class="tech-badge">LLM</span>
+          </div>
+        </div>
+        <a href="https://github.com/JitamB/Real-Time-Financial-RAG-Bot" target="_blank" class="project-link-btn">View on
+          GitHub</a>
+      </div>
+
+      <div class="project-block">
+        <div class="project-text">
+          <h3>Backstory Consistency NLP</h3>
+          <p>A RAG-based NLP pipeline that verifies character backstories against entire books to detect narrative
+            inconsistencies, using Pathway for vector search and Groq LLMs.</p>
+          <div class="project-tech">
+            <span class="tech-badge">NLP</span>
+            <span class="tech-badge">Pathway</span>
+            <span class="tech-badge">RAG</span>
+            <span class="tech-badge">Groq</span>
+          </div>
+        </div>
+        <a href="https://github.com/JitamB/Backstory-Consistency-NLP" target="_blank" class="project-link-btn">View on
+          GitHub</a>
+      </div>
+
+      <div class="project-block">
+        <div class="project-text">
+          <h3>Explore KGP</h3>
+          <p>A gamified campus exploration app with a "fog of war" mechanic — the map reveals itself only as you
+            physically walk through the world. Built with React Native and Expo.</p>
+          <div class="project-tech">
+            <span class="tech-badge">React Native</span>
+            <span class="tech-badge">Expo</span>
+            <span class="tech-badge">Geolocation</span>
+          </div>
+        </div>
+        <a href="https://github.com/JitamB/explore-kgp" target="_blank" class="project-link-btn">View on GitHub</a>
+      </div>
+
+      <div class="project-block">
+        <div class="project-text">
+          <h3>2048 Number Rush</h3>
+          <p>A fun, interactive recreation of the classic 2048 sliding puzzle game.</p>
+          <div class="project-tech">
+            <span class="tech-badge">JavaScript</span>
+          </div>
+        </div>
+        <a href="https://github.com/JitamB/2048-number-rush" target="_blank" class="project-link-btn">View on GitHub</a>
+      </div>
+    </section>
+
+    <!-- ===== Extra-Curricular ===== -->
+    <section class="page-section reveal" id="activities">
+      <h2 class="section-heading">Activities</h2>
+      <ul class="activity-list">
+        <li>Hall Literary Team — GC Gold (Hindi Elocution), SFM and Clay Modelling Team</li>
+        <li>Wing Representative at Azad Hall of Residence</li>
+        <li>Best Volunteer of NSS Unit 15 for the academic year 2024–25</li>
+      </ul>
+    </section>
+
+    <!-- ===== Awards ===== -->
+    <section class="page-section reveal" id="awards">
+      <h2 class="section-heading">Awards &amp; Achievements</h2>
+      <div class="awards-block">A lot :)</div>
+    </section>
+
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer id="contact">
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Email</h4>
+        <a href="mailto:barmanjitam@gmail.com">barmanjitam@gmail.com</a>
+      </div>
+      <div class="footer-col">
+        <h4>GitHub</h4>
+        <a href="https://github.com/JitamB" target="_blank">github.com/JitamB</a>
+      </div>
+      <div class="footer-col">
+        <h4>Socials</h4>
+        <a href="https://www.linkedin.com/in/jitam-barman" target="_blank">LinkedIn</a> ·
+        <a href="https://www.instagram.com/jitam_b" target="_blank">Instagram</a> ·
+        <a href="https://codeforces.com/profile/jitam_barman" target="_blank">Codeforces</a>
+      </div>
+      <div class="footer-col">
+        <p>&copy; 2026 Jitam Barman</p>
       </div>
     </div>
-    </header>
-
-  <main>
-    <section class="education">
-      <div>
-        <h2>Education</h2>
-        <ul>
-          <li><b>IIT Kharagpur</b> - BTech & MTech Dual Degree in Metallurgical and Materials Engineering (2023-Present)</li>
-          <li><b>IIT Madras</b> - BS in Data Science and Application (2023- Present)</li>
-          <li><b>Jenkins School</b> - Higher Secondery - Science (PCMB) (2023)</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="skills">
-      <div>
-        <h2>Skills</h2>
-        <ul>
-          <li><b>Languages:</b> C, C++, Python, MATLAB, HTML, CSS, JavaScript</li>
-          <li><b>Frameworks & Libraries:</b> C++ STL, Pandas, Numpy, SciPy, Matplotlib, Scikit-learn, TensorFlow, React.js, Bootstrap</li>
-          <!-- <li><b>Web Development Tools:</b> HTML, CSS, JS, Bootstrap, React</li> -->
-          <li><b>Platforms & Softwares:</b> Jupyter Notebook, Visual Studio Code, Xcode, Google Colab, Kaggle, Github, Autodesk/Fusion 360</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="experience">
-      <div>
-        <h2>Experience</h2>
-        <ul>
-          <li><b>Head | COMPOSIT, IIT Kharagpur</b> (Apr'25 - Present)</li>
-          <li><b>SubHead | COMPOSIT, IIT Kharagpur</b> (Nov'24 - Apr'25)</li>
-          <li><b>Secretary | Azad Hall of Residence</b> (Oct'24 - Apr'25)</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="projects">
-      <div>
-        <h2>Projects</h2>
-        <ul>
-          <li><b>Correct spelling with ML</b> | <a href="https://github.com/JitamB/Correct-spelling-with-ML" target="_blank">Link</a></li>
-          <!-- <li><b>Clustering & Regression using the concept of OOPS</b> | <a href="https://github.com/JitamB/Get-started-with-ML" target="_blank">Link</a></li> -->
-          <li><b>Voice-controlled line following robot car</b> | <a href="https://drive.google.com/drive/folders/1tF5vOyJclUlEWprHY1qyUPDjIsEapUVz?usp=drive_link" target="_blank">Link</a></li>
-          <li><i>More coming soon...</i></li>
-        </ul>
-      </div>
-    </section>
-
-    <section class = "eaa">
-      <div>
-        <h2>Extra-Curricular Activities</h2>
-        <ul>
-          <li>Hall Literary Team (GC Gold - Hindi Elocution), SFM and Clay Modelling Team.</li>
-          <li>Wing Representative at Azad Hall of Residence</li>
-          <li>Best Volunteer of NSS unit 15 for the academic year 2024-25</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="awards">
-      <div>
-        <h2>Awards & Achievements</h2>
-        <ul>
-          <li>A lot :) </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="hire-me">
-        <h2>Contact Me</h2>
-        <p>If you have an exciting project on Data Science or Analysis, let's work together! Contact me for collaboration.</p>
-        <a href="mailto:barmanjitam@gmail.com">
-          <button class="hire-button">Contact me</button>
-        </a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="social-media">
-      <a href="https://www.facebook.com/barman.jitam" target="_blank">Facebook</a>
-      <a href="https://www.instagram.com/jitam_b" target="_blank">Instagram</a>
-      <a href="https://www.linkedin.com/in/jitam-barman" target="_blank">LinkedIn</a>
-      <a href="https://www.github.com/JitamB" target="_blank">Github</a>
-      <a href="https://codeforces.com/profile/jitam_barman" target="_blank">Codeforces</a>
-    </div>
-    
+    <!-- <div style="text-align: center" >Made with the assistance of Claude Opus</div> -->
   </footer>
-</div>
+  <div style="text-align: center; font-size: 15px; color: #666;">Made with the assistance of Claude Opus</div>
+
+  <!-- Scroll reveal -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Hamburger Menu Logic
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navbar-links');
+    const navItems = navLinks.querySelectorAll('a');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('nav-active');
+      hamburger.classList.toggle('toggle');
+    });
+
+    // Close menu when a link is clicked
+    navItems.forEach(item => {
+      item.addEventListener('click', () => {
+        if (navLinks.classList.contains('nav-active')) {
+          navLinks.classList.remove('nav-active');
+          hamburger.classList.remove('toggle');
+        }
+      });
+    });
+  </script>
+
 </body>
 
 </html>
